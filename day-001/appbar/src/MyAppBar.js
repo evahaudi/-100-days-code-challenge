@@ -23,7 +23,7 @@ const MyAppBar = () => {
     };
 
     return (
-        <AppBar position="static" style={{ backgroundColor: 'blue' }}>
+        <AppBar position="static" style={{ backgroundColor: '#001BC7' }}>
             <Toolbar>
                 <Box sx={{ display: 'flex', flexGrow: 1, alignItems: 'center' }}>
                     <img
@@ -52,7 +52,7 @@ const MyAppBar = () => {
                             anchorEl={menuAnchor}
                             open={Boolean(menuAnchor)}
                             onClose={handleMenuClose}
-                            PaperProps={{ style: { backgroundColor: 'green' } }}
+                            PaperProps={{ style: { backgroundColor: '#009AC7 ' } }}
                         >
                             <MenuItem
                                 component={Link}
